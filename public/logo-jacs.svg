@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Orange Gradient for Top & Outer Spine of J -->
+    <linearGradient id="orangeGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#ff9100" />
+      <stop offset="35%" stop-color="#ff5e00" />
+      <stop offset="85%" stop-color="#e03000" />
+      <stop offset="100%" stop-color="#a61a00" />
+    </linearGradient>
+
+    <!-- Orange Gloss Highlight -->
+    <linearGradient id="orangeGloss" x1="0%" y1="0%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#ffb347" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#ff5e00" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Blue Gradient for Inner Loop of J -->
+    <linearGradient id="blueGrad" x1="0%" y1="20%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff" />
+      <stop offset="25%" stop-color="#0066ff" />
+      <stop offset="70%" stop-color="#002699" />
+      <stop offset="100%" stop-color="#00104d" />
+    </linearGradient>
+
+    <!-- Blue Inner Fold Depth -->
+    <linearGradient id="blueFold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#001854" />
+      <stop offset="60%" stop-color="#003db3" />
+      <stop offset="100%" stop-color="#0080ff" />
+    </linearGradient>
+
+    <!-- Subtle Drop Shadow -->
+    <filter id="logoShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Group with shadow -->
+  <g filter="url(#logoShadow)">
+    <!-- Back Outer Orange Arch of J -->
+    <path d="M 160 115 
+             L 410 28 
+             C 435 20, 465 40, 460 70 
+             L 420 220 
+             C 380 370, 260 450, 160 455 
+             C 210 420, 340 370, 360 250 
+             L 375 110 
+             L 190 145 
+             Z" 
+          fill="url(#orangeGrad)" />
+
+    <!-- Orange Top Bevel & Gloss -->
+    <path d="M 160 115 
+             L 410 28 
+             C 435 20, 465 40, 460 70 
+             L 440 95 
+             L 215 155 
+             Z" 
+          fill="url(#orangeGloss)" />
+
+    <!-- Blue Fold Shadow Transition -->
+    <path d="M 375 110 
+             L 250 160 
+             C 230 250, 200 370, 75 320 
+             C 50 310, 50 280, 75 270 
+             C 120 255, 150 280, 170 310 
+             C 210 320, 250 270, 280 200 
+             L 360 115 
+             Z" 
+          fill="url(#blueFold)" 
+          opacity="0.85" />
+
+    <!-- Main Vibrant Blue 3D Body of J -->
+    <path d="M 250 110 
+             L 375 110 
+             C 360 230, 330 380, 195 455 
+             C 120 450, 60 405, 60 330 
+             C 60 270, 95 270, 150 270 
+             C 115 270, 100 320, 130 370 
+             C 165 430, 250 400, 285 300 
+             C 320 200, 345 140, 370 115 
+             L 250 110 
+             Z" 
+          fill="url(#blueGrad)" />
+
+    <!-- Blue Front Ribbon Loop Highlight -->
+    <path d="M 150 270 
+             C 90 270, 60 300, 60 330 
+             C 60 405, 120 450, 195 455 
+             C 255 425, 290 350, 310 280 
+             C 280 350, 230 405, 170 395 
+             C 120 385, 100 335, 120 300 
+             C 130 285, 140 275, 150 270 
+             Z" 
+          fill="url(#blueGrad)" />
+  </g>
+</svg>

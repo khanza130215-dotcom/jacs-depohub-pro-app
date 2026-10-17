@@ -1,0 +1,6 @@
+{
+  "name": "JacS DepoHub - Distributor & Fleet Management",
+  "description": "Sistem manajemen operasional dan keuangan distributor air mineral JacS DepoHub dengan antarmuka modern, neon glow, dan integrasi armada pengiriman.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
